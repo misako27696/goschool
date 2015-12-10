@@ -1,0 +1,429 @@
+/* ===================================================================
+CSS information
+
+ File Name  : contents.css
+ Author     : MIYA
+ Style Info : コンテンツ内のスタイル
+=================================================================== */
+
+
+/* メイン
+----------------------------------------------------------*/
+body{
+	margin: 0px;
+	line-height: 1;
+}
+
+#goschool{
+		height:auto;
+		width:1439px;
+}
+
+#box{
+		height:auto;
+		width:1315px;
+		background-size: cover;
+		background-color:#fff1da;
+		display:table-cell;
+}
+#left-title{
+		float:left;
+		width:200px;
+		height:260px;
+		display:table-cell;
+		background-image: url("../img/prop_left_fin.png");
+		
+}
+
+#title{
+		float:left;
+		height:260px;
+		width:1009px;
+		background-color:#fff1da;
+		text-align: center;
+}
+
+#right-title{
+		float:right;
+		width:230px;
+		height:260px;
+		display:table-cell;
+		background-image: url("../img/pillar_top_right_fin.png");
+		background-color:#fff1da;
+}
+
+
+#prop-left{
+		width:60px;
+		height:auto;
+		display:table-cell;
+		background-image: url("../img/Wood.png");
+		background-size:60px auto;
+}
+
+#tag{
+	float:left;
+	width:1318px;
+	height:80px;
+	background: #593700 url(/goschool/img/pattern.png) top left repeat;
+
+}
+
+#side-left{
+	float:left;
+	height:auto;
+	width:322px;
+}
+
+#main{
+	float:left;
+	height:auto;
+	width:967px;
+	/* overflow:scroll; */
+
+}
+
+#prop-right{
+		width:60px;
+		height:auto;
+		display:table-cell;
+		background-image: url("../img/Wood.png");
+		background-size:60px auto;
+}
+
+#footer{
+		height:260px;
+}
+
+#left-footer{
+		float:left;
+		width:200px;
+		height:260px;
+		display:table-cell;
+		background-image: url("../img/pillar_bottom_left.png");
+		background-size:222px 260px;
+		background-color:#fff1da;
+}
+
+#center-footer{
+		float:left;
+		height:260px;
+		width:1009px;
+		background-color:#fff1da;
+		text-align: center;
+}
+
+#right-footer{
+		float:right;
+		width:230px;
+		height:260px;
+		display:table-cell;
+		background-image: url("../img/pillar_bottom_right.png");
+		background-size:229px 260px;
+		background-color:#fff1da;
+}
+#ceiling{
+	height:10px;
+	background-color:#593700
+	
+}
+.heading {
+position: relative;
+margin-bottom: 2.5em;
+margin-top: 1em;
+line-height: 2em;
+text-align: center;
+}
+
+.heading>.major {
+margin-bottom: .25em;
+font-family: PTSansBold,Helvetica,Arial,sans-serif;
+font-size: 2.5em;
+font-weight: bold;
+color:#000;
+text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font: 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #404040;
+
+}
+/*============================================================
+メインタブ
+============================================================*/
+#cssmenu,
+#cssmenu ul{
+  height: 79px;
+  margin:0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+#cssmenu {
+  width: auto;
+}
+
+.align-center{ /* BOX影 */
+  border: 1px solid #3b2500;
+  -moz-box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+#fm{
+  height: 79px;
+  width:180px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica;
+}
+
+#sb{
+height: 79px;
+  width:180px;
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-size: 14px;
+  color: #ffffff;
+  background:none;
+  display: table-cell;
+  text-shadow: 0 -1px 1px #e07b00;
+  vertical-align: middle;
+}
+
+#sb:hover {
+  cursor: pointer;
+  height: 79px;
+  width:180px;
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-size: 14px;
+  color: #e07b00;
+  background:none;
+  display: table-cell;
+  text-shadow: 0 1px 1px #e07b00;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+#cssmenu.align-center > ul {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#span{
+  font-size: 55px;
+  color: #3b2500;
+}
+/*============================================================
+メインタブ生徒
+============================================================*/
+#cssmenustudent,
+#cssmenustudent ul,
+#cssmenustudent li #cssmenustudent a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 3.5;
+  
+}
+#cssmenustudent {
+  width: auto;
+}
+#cssmenustudent ul {
+  zoom: 1;
+  background: #593700 url(/goschool/img/pattern.png) top left repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #3b2500;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+#cssmenustudent ul:before {
+  content: '';
+  display: block;
+  
+}
+#cssmenustudent ul:after {
+  content: '';
+  display: table;
+  clear: both;
+  
+}
+
+#cssmenustudent a,
+#cssmenustudent a:link,
+#cssmenustudent a:visited {
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 -1px 1px #e07b00;
+  border-right: 1px solid #3b2500;
+  
+}
+#cssmenustudent a:hover {
+  color: #e07b00;
+  text-shadow: 0 1px 1px #e07b00;
+  
+}
+#cssmenustudent li {
+  float: left;
+  border-right: 1px solid #56411e;
+  width:200px;
+}
+#cssmenustudent li:hover {
+  background: #593700 url(/goschool/img/pattern.png) top left repeat;
+}
+#cssmenustudent li:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+  display: block;
+  border-left: 1px solid #3b2500;
+}
+#cssmenustudent.align-center > ul {
+  text-align: center;
+}
+#cssmenustudent.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+
+/*============================================================
+フキダシデザイン 
+============================================================*/
+.arrow_question {
+    position: relative;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    padding: 87px 37px;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 13px;
+}
+
+.arrow_question {
+    float: right;
+    font-size:10px;
+}
+
+.arrow_question:after,
+.arrow_question:before {
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_question:after,
+.arrow_question:before { right: 100%; }
+
+.arrow_question:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+.arrow_question:after { 
+	border-right-color: #fff ; 
+}
+
+.arrow_question:before {
+    border-color: rgba(200, 200, 200, 0);
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+.arrow_question:before { border-right-color: #c8c8c8; }
+
+.question_image { 
+	float: left; 
+}
+
+.question_Box {
+    margin-bottom: 25px;
+}
+.oneword{
+	margin-top:-80px;
+}
+
+/* ボタン
+----------------------------------------------------------*/
+.btn {
+	margin:5px;
+	margin-bottom:5px;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: #59b1eb;
+	border: 2px solid #7dc1f0;
+	color: #fff;
+	font-size:15px;
+}
+.btn::before,
+.btn::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.btn,
+.btn::before,
+.btn::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.btn:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
+}

@@ -1,0 +1,402 @@
+/* ===================================================================
+CSS information
+
+ File Name  : contents.css
+ Author     : MIYA
+ Style Info : コンテンツ内のスタイル
+=================================================================== */
+/*============================================================
+フキダシデザイン 
+============================================================*/
+.arrow_question {
+    position: relative;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    padding: 87px 37px;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 13px;
+}
+
+.arrow_question {
+    float: right;
+    font-size:10px;
+}
+
+.arrow_question:after,
+.arrow_question:before {
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_question:after,
+.arrow_question:before { right: 100%; }
+
+.arrow_question:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+.arrow_question:after { 
+	border-right-color: #fff ; 
+}
+
+.arrow_question:before {
+    border-color: rgba(200, 200, 200, 0);
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+.arrow_question:before { border-right-color: #c8c8c8; }
+
+.question_image { 
+	float: left; 
+}
+
+.question_Box {
+    margin-bottom: 25px;
+}
+.oneword{
+	margin-top:-80px;
+	font-size:11px;
+}
+
+/*============================================================
+クラスルーム_出席簿
+============================================================*/
+#class_atend {
+		height:600px;
+		width:700px;
+		background-color:#140;
+		margin-top:10px;
+		margin-left:10px;
+		border:8px solid #a60;
+		word-break:break-all;
+		margin:10px 5px;
+		padding:15px;
+		border-radius:3px;
+		box-shadow:2px 2px 4px #999,2px 2px 2px #020 inset;
+		text-shadow:0px 0px 2px #000";
+		border: solid 1px #000;
+}
+#calender {
+		margin-top:20px;
+		margin-left:200px;
+		width:300px;
+}
+
+table.atend_head {
+    margin: 0 auto;
+    width: 650px;
+    border: solid 1px #000;;
+    border-spacing: 0 10px;
+    background: #f5f5f5;
+    border: solid 1px #000;
+}
+ 
+table.atend_head th {
+    vertical-align: middle;
+    height: 20px;
+    width: 124px;
+    border-right: solid 1px #000;
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    border: solid 1px #000;
+}
+ 
+table.atend_head td.data {
+    padding: 0;
+    margin: 0;
+    height: px;
+    width: 100px;
+    border: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    border: solid 1px #000;
+}
+
+ 
+table.atend_head td:fst-child {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+    border: solid 1px #000;
+}
+ 
+table.atend_head td.bar {
+    height: 1px;
+    width: 100%;
+    border-top: solid 1px #000;
+    border: solid 1px #000;
+}
+
+table.atend_date {
+    margin: 0 auto;
+    width: 650px;
+    border-spacing: 0 10px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+ 
+table.atend_date th {
+    vertical-align: middle;
+    height: 50px;
+    width: 124px;
+    border-right: solid 1px #000;
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+table.atend_date td.data {
+    padding: 0;
+    margin: 0;
+    height: px;
+    width: 100px;
+    border-right: solid 1px #000;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+table.atend_date td.data2 {
+    padding: 0;
+    margin: 0;
+    height: px;
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ 
+table.atend_date td:fst-child {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+ 
+table.atend_date td.bar {
+    height: 1px;
+    width: 100%;
+    border-top: solid 1px #000;
+}
+
+/*============================================================
+クラスルーム_時間割
+============================================================*/
+
+#class_timetable {
+		height:500px;
+		width:750px;
+		margin-top:10px;
+		margin-left:10px;
+}
+
+table.atend_timetable {
+    margin: 0 auto;
+    width: 650px;
+    border: solid 1px #000;;
+    border-spacing: 0 10px;
+    background: #f5f5f5;
+    border: 2px solid #000;
+}
+ 
+table.atend_timetable th {
+    vertical-align: middle;
+    height: 30px;
+    width: 124px;
+    border-right: solid 1px #000;
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 3px double
+    
+}
+ 
+table.atend_timetable td.data {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 100px;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ 
+table.atend_timetable td:fst-child {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+ 
+table.atend_timetable td.bar {
+    height: 1px;
+    width: 100%;
+    border-top: solid 1px #000;
+}
+
+/*============================================================
+クラスルーム_名簿
+============================================================*/
+
+#class_roster {
+		height:500px;
+		width:230px;
+		margin-top:-1140px;
+		margin-left:750px;
+		background: #fff1da;	
+}
+
+table.atend_roster {
+    margin: 0 auto;
+    border: solid 1px #000;
+    border-spacing: 0 10px;
+    background: #f5f5f5;
+    border: 2px solid #000;
+}
+ 
+table.atend_roster th {
+    vertical-align: middle;
+    border-right: solid 1px #000;
+    margin: 0;
+    height: 20px;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 3px double
+    
+}
+ 
+table.atend_roster td.data {
+    padding: 0;
+    margin: 0;
+    width:70px;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+}
+
+table.atend_roster td.data2 {
+    padding: 0;
+    margin: 0;
+    width:150px;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+}
+ 
+table.atend_roster td:fst-child {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+ 
+table.atend_roster td.bar {
+    height: 1px;
+    width: 100%;
+    border-top: solid 1px #000;
+}
+
+/*============================================================
+モーダル
+============================================================*/
+#mask {
+            position:absolute;
+            left:0; top:0;
+            z-index:9000;
+            background-color:#000;
+            display:none;
+         }
+         .window {
+            position:absolute;
+            left:0; top:0;
+            width:440px; 
+            height:200px;
+            display:none;
+            z-index:9999;
+            padding:20px;
+         }
+         #attendance {
+            width:400px; 
+            height:auto;
+            padding:10px;
+            background-color:#fff;
+         }
+         /* 例2 */
+         #attendance1 {
+            width:375px; height:203px;
+         }
+         #attendance .d-header {
+            background:url(/content/img/ajax/simple_jquery_modal_window/login-header.png) no-repeat 0 0 transparent; 
+            width:375px; height:150px;
+         }
+         #attendance1 .d-header input {
+            position:relative;
+            top:60px; left:100px;
+            width:200px; height:22px;
+            margin:4px 0 0 0; padding:5px;
+            border:3px solid #ccc;
+            font-size:15px;
+         }
+         #attendance1 .d-blank {
+            float:left;
+            background:url(/content/img/ajax/simple_jquery_modal_window/login-blank.png) no-repeat 0 0 transparent; 
+            width:267px; height:53px;
+         }
+         #attendance1 .d-login {
+            float:left;
+            width:108px; height:53px;
+            margin:0; padding:0;
+         }
+         #attendance1 .d-login input {
+            margin:0; padding:0;
+         }
+         /* 例3 */
+         #attendance2 {
+            background:url(/content/img/ajax/simple_jquery_modal_window/notice.png) no-repeat 0 0 transparent; 
+            width:326px; height:229px;
+            padding:50px 0 20px 25px;
+         }
+         

@@ -1,0 +1,188 @@
+/* ===================================================================
+CSS information
+
+ File Name  : contents.css
+ Author     : MIYA
+ Style Info : コンテンツ内のスタイル
+=================================================================== */
+/*============================================================
+マイページ_先生_日別
+============================================================*/
+
+/* テーブル
+----------------------------------------------------------*/
+
+.box{
+	width:980px;
+	height:auto;
+    background:#FFF;
+    margin:40px auto;
+}
+.class_attendstate{
+	margin-left:7px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect8:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+th.ex1{
+	width:95px;
+}
+td.ex2{
+	text-align:right;
+	padding-right:10px;
+}
+
+#class_attendstate_all{
+	 border: 1px solid #000;
+	 width:95%;
+	 margin: 0 auto;
+}
+#class_attendstate_all th{
+	 border: 1px solid #000;
+}
+#class_attendstate_all td{
+	 border: 1px solid #000;
+}
+
+
+/* ボタン
+----------------------------------------------------------*/
+.btn {
+	margin:5px;
+	margin-bottom:5px;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: #59b1eb;
+	border: 2px solid #7dc1f0;
+	color: #fff;
+}
+.btn::before,
+.btn::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.btn,
+.btn::before,
+.btn::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.btn:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
+}
+
+
+#monthdown{
+	background:none;
+	border:0;
+	font-size:1em;
+}
+#monthdown:hover {
+	color: #b0b0b0;
+	cursor: pointer;
+}
+#monthup{
+	background:none;
+	border:0;
+	font-size:1em;
+}
+#monthup:hover {
+	color: #b0b0b0;
+	cursor: pointer;
+}
+#yeardown{
+	background:none;
+	border:0;
+	font-size:1em;
+}
+#yeardown:hover {
+	color: #b0b0b0;
+	cursor: pointer;
+}
+#yearup{
+	background:none;
+	border:0;
+	font-size:1em;
+}
+#yearup:hover {
+	color: #b0b0b0;
+	cursor: pointer;
+}
+
+
+/* テキスト
+----------------------------------------------------------*/
+#text-left{
+	margin-left:30px;
+}
+
+#month{
+	display: inline;
+}
+#year{
+	display: inline;
+}
+#year1{
+	display: inline;
+}
+
+/*============================================================
+マイページ_先生_授業別
+============================================================*/
+/* テーブル
+----------------------------------------------------------*/
+#teacher_tuition{
+	border: 1px solid #000;
+}
+th.ex8{
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	width:100px;
+}
+
+th.ex9{
+	border-top:1px solid #000;
+}
+td.ex10{
+	border: 1px solid #000;
+	text-align: center;
+}
+
+

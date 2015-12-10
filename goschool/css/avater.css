@@ -1,0 +1,93 @@
+/* ▼キャンバス領域 */
+#canvas{
+	margin-left:200px;
+	float:left;
+	position: relative;
+	width: 300px;
+	height: 350px;
+}
+
+#cvs_body{
+	width: 300px;
+	height: 350px;
+}
+
+#cvs_eye{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+	height: 350px;
+}
+#cvs_hair{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+	height: 350px;
+}
+#cvs_mouth{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+	height: 350px;
+}
+#cvs_glasses{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+	height: 350px;
+}
+
+/* ▼アバター項目選択領域 */
+#right{
+	float: left;
+	width: 320px;
+	height: 370px;
+}
+
+/* ▼(A)表示領域全体 */
+div.tabbox { margin: 0px; padding: 0px; width: 360px; }
+
+/* ▼(B)タブ部分 */
+p.tabs { margin: 0px; padding: 0px; }
+p.tabs a {
+   /* ▼(B-2)リンクをタブのように見せる */
+   display: block; width: 5em; float: left;
+   margin: 0px 1px 0px 0px; padding: 3px;
+   text-align: center;
+   border-radius: 12px 12px 0px 0px; /* 角を丸くする */
+}
+/* ▼(B-3)各タブの配色 */
+p.tabs a.tab1 { background-color: #8b4513;  color: white; }
+p.tabs a.tab2 { background-color: #f4a460; color:white;}
+p.tabs a.tab3 { background-color: #8b4513;   color: white; }
+p.tabs a.tab4 { background-color: #f4a460;   color: white; }
+p.tabs a:hover { color: yellow; }
+
+/* ▼(C)タブ中身のボックス */
+div.tab {
+   /* ▼(C-2)ボックス共通の装飾 */
+   height: 340px; overflow: auto; clear: left;
+}
+/* ▼(C-3)各ボックスの配色 */
+div#tab1 { border: 2px solid #8b4513; background-color: #ffffcc; }
+div#tab2 { border: 2px solid #f4a460; background-color: #ffffcc; }
+div#tab3 { border: 2px solid #8b4513; background-color: #ffffcc; }
+div#tab4 { border: 2px solid #f4a460; background-color: #ffffcc; }
+div.tab p { margin: 0.5em; }
+
+img.select{
+	border: 1px solid #000000;
+	width: 90px;
+	height: 90px;
+	background-color:white;
+}
+
+/* フロート解除 */
+.clear{
+	clear:both;　
+}
+
